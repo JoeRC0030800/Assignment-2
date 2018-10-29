@@ -18,7 +18,7 @@ namespace Assignment_2
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {
+        {// 2 Resistors in Series
             try
             {
                 double R1 = Convert.ToDouble(textBox1.Text);
@@ -30,12 +30,12 @@ namespace Assignment_2
             }
             catch
             {
-
+                MessageBox.Show("Please Enter a Number","Error", MessageBoxButtons.RetryCancel, MessageBoxIcon.Exclamation);
             }
         }
 
         private void button2_Click(object sender, EventArgs e)
-        {
+        {// 3 Resistors in Series
             try
             {
                 double R1 = Convert.ToDouble(textBox3.Text);
@@ -48,7 +48,7 @@ namespace Assignment_2
             }
             catch
             {
-
+                MessageBox.Show("Please Enter a Number", "Error", MessageBoxButtons.RetryCancel, MessageBoxIcon.Exclamation);
             }
             
 
@@ -56,7 +56,7 @@ namespace Assignment_2
         }
 
         private void button3_Click(object sender, EventArgs e)
-        {
+        {// 4 resistors in series
             try
             {
                 double R1 = Convert.ToDouble(textBox6.Text);
@@ -70,13 +70,13 @@ namespace Assignment_2
             }
             catch
             {
-
+                MessageBox.Show("Please Enter a Number", "Error", MessageBoxButtons.RetryCancel, MessageBoxIcon.Exclamation);
             }
           
         }
 
         private void button4_Click(object sender, EventArgs e)
-        {
+        {// 5 resistors in series
             try
             {
                 double R1 = Convert.ToDouble(textBox10.Text);
@@ -91,7 +91,7 @@ namespace Assignment_2
             }
             catch
             {
-
+                MessageBox.Show("Please Enter a Number", "Error", MessageBoxButtons.RetryCancel, MessageBoxIcon.Exclamation);
             }
            
 
@@ -103,7 +103,7 @@ namespace Assignment_2
         }
 
         private void button5_Click(object sender, EventArgs e)
-        {
+        {// 2 resistors in Parallel
             try
             {
                 double R1 = Convert.ToDouble(textBox15.Text);
@@ -117,12 +117,12 @@ namespace Assignment_2
             }
             catch
             {
-
+                MessageBox.Show("Please Enter a Number", "Error", MessageBoxButtons.RetryCancel, MessageBoxIcon.Exclamation);
             }
         }
 
         private void button6_Click(object sender, EventArgs e)
-        {
+        {// 3 resistors in parallel
             try
             {
                 double R1 = Convert.ToDouble(textBox17.Text);
@@ -136,12 +136,12 @@ namespace Assignment_2
             }
             catch
             {
-
+                MessageBox.Show("Please Enter a Number", "Error", MessageBoxButtons.RetryCancel, MessageBoxIcon.Exclamation);
             }
         }
 
         private void button7_Click(object sender, EventArgs e)
-        {
+        {// 4 resistors in parallel
             try
             {
                 double R1 = Convert.ToDouble(textBox20.Text);
@@ -156,12 +156,12 @@ namespace Assignment_2
             }
             catch
             {
-
+                MessageBox.Show("Please Enter a Number", "Error", MessageBoxButtons.RetryCancel, MessageBoxIcon.Exclamation);
             }
         }
 
         private void button8_Click(object sender, EventArgs e)
-        {
+        {// 5 resistors in parallel
             try
             {
                 double R1 = Convert.ToDouble(textBox24.Text);
@@ -177,7 +177,7 @@ namespace Assignment_2
             }
             catch
             {
-
+                MessageBox.Show("Please Enter a Number", "Error", MessageBoxButtons.RetryCancel, MessageBoxIcon.Exclamation);
             }
         }
     }
