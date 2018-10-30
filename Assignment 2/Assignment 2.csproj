@@ -94,5 +94,29 @@
   <ItemGroup>
     <None Include="Resources\4 paralle.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4 resistors in series.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5 resistors in series.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2 resistors in parallel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3 resistors in parallle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4 paralle1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4 paralle2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4 in parallel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5 parallel.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

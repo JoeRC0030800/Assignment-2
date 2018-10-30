@@ -63,6 +63,16 @@ namespace Assignment_2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _2_resistors_in_parallel {
+            get {
+                object obj = ResourceManager.GetObject("2 resistors in parallel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _2_resistors_in_series {
             get {
                 object obj = ResourceManager.GetObject("2_resistors_in_series", resourceCulture);
@@ -93,9 +103,79 @@ namespace Assignment_2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _3_resistors_in_parallle {
+            get {
+                object obj = ResourceManager.GetObject("3 resistors in parallle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _4_in_parallel {
+            get {
+                object obj = ResourceManager.GetObject("4 in parallel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _4_paralle {
             get {
                 object obj = ResourceManager.GetObject("4 paralle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _4_paralle1 {
+            get {
+                object obj = ResourceManager.GetObject("4 paralle1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _4_paralle2 {
+            get {
+                object obj = ResourceManager.GetObject("4 paralle2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _4_resistors_in_series {
+            get {
+                object obj = ResourceManager.GetObject("4 resistors in series", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _5_parallel {
+            get {
+                object obj = ResourceManager.GetObject("5 parallel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _5_resistors_in_series {
+            get {
+                object obj = ResourceManager.GetObject("5 resistors in series", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
